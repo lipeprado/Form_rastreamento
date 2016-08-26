@@ -16,14 +16,11 @@ gulp.task('browser-sync', function() {
 
 
 
-
-
-
 // Scripts
 gulp.task('scripts', function(){
     gulp.src('js/*.js')
     .pipe(plumber())
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(gulp.dest('js'));
 });
 
@@ -47,4 +44,4 @@ gulp.task('watch', function(){
 
 });
 
-gulp.task('default', ['scripts', 'styles', 'watch', 'browser-sync']);
+ gulp.task('default', ['scripts', 'styles', 'watch','browser-sync']);
