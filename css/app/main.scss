@@ -4,206 +4,245 @@
 body{
 	background-color: $cor_base;
 	font-family: $font-principal;
-	height: 100vh;
-	width: 100%;
+	height: 100%;
 	font-weight: 700;
 	text-align: center;
-	
-
 }
 
-h1, h2, h3, h4{
-	margin: 0;
-}
-.container-btn{
-	position: absolute;
-	bottom: 2rem;
-	height: 100px;
-	text-align: center;
+
+
+section {
+	position: relative;
 	width: 100%;
-	margin: 0 auto;
-	/*background-color: pink;*/
-}
-.btn-main{
-	
-	display: inline-block;
-	text-decoration: none;
-	background-color: $cor_principal;
-	color: $cor_base;
-	padding: 1rem;
-	float: right;
-	border: none;
-	margin-top: 1rem;
-	&:hover{
-		background-color: darken($cor_principal, 5%);
-	}
-}
-
-// STYLE
-
-
-h1.title-inicio{
-	background-color: $cor_principal;
-	font-size: 1.3rem;
-	padding: 2rem 1.4rem;
-	margin:0 0 50px 0;	
-	text-align: center; 
-	text-transform: uppercase;
-	color: $cor_base;
-	
+	height: 100%;
 }
 
 
 
-.form-inicio{
-		width: 100%;
-		color: $cor_base;
-		.grupo-nome, .grupo-idade, .grupo-data {
-			width: 100%;
-			display: block;
-			margin: 1rem 0;
 
-			label.label-inicio{
-			width: 100%;
-			background-color: $cor_principal;
-			font-size: 1.3rem;
-			padding: 1rem;
-			transition: all;
-
-		}
-		input.input-inicio{
-			width: 100%;
-			background-color: transparent;
-			border: 1px solid #d1d1d1;
-			font-size: 1.3rem;
-			color: $cor_principal;
-			text-align: center;
-			padding: 1rem;
-			margin-bottom: 1.3rem;
-			outline: 1px solid transparent;
-			transition: all;
-		}
-			input:focus, input:active{
-				border: 1px solid $cor_principal;
-				outline: none; ;
-				}
-		}
-	}
-
-
-.troca{
-	transform: translateZ(-100%) !important;
-	opacity: 0;
-}
-
-#inicio {
+#primeira-tela{
+	z-index: 10;
 	width: 100%;
 	height: 100vh;
-	/*background-image: url(../img/1-cabeca.jpg);*/
-	transform: translateZ(0);
-	transition: all .5s ease-in-out;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	transform: translateX(0);
+	opacity: 1;
+	transition: all .5s ease-in-out;
+	
+}
+
+.troca-tela{
+	transform: translateX(-100%) !important;
+	opacity: 0 !important;
 }
 
 
+#titulo_primeira-tela{
 
-
-
-@media screen and (max-width: 1400px) {
-  
-  .container-btn{
-		position: absolute;
-		bottom: 0;
-		height: 100px;
+		font-size: 1.3rem;
+		font-family: $font-principal;
+		color: $cor_base;
+		background-color: $cor_principal;
+		padding: .8rem 1.2rem;
+		margin: 1.4rem 0 4rem 0;	
+		text-transform: uppercase;
 		text-align: center;
+	}
+
+.label_primeira-tela{
+		@extend #titulo_primeira-tela;
+		margin-bottom: 0;
+		margin-top: 1.5rem;
+		display: block;
 		width: 100%;
-		margin: 0 auto;
-		/*background-color: pink;*/
 }
-.btn-main{
-	
-	display: inline-block;
+
+.input_primeira-tela{
+	background-color: $cor_base;
+	color: $cor_principal;
+	width: 100%;
+	padding: .6rem 1rem;
+	margin-bottom: 1rem;
+	outline: transparent;
+	border: 1px solid #d1d1d1;
+
+}
+
+.btn_primeira-tela{
 	text-decoration: none;
 	background-color: $cor_principal;
 	color: $cor_base;
-	padding: .8rem 1rem;
 	float: right;
-	border: none;
-	margin-top: 1rem;
+	padding: .8rem 1.2rem;
+	margin: 1rem 0;
 	&:hover{
 		background-color: darken($cor_principal, 5%);
 	}
 }
 
-// STYLE
 
-
-h1.title-inicio{
+.btn_avancar{
+	text-decoration: none;
 	background-color: $cor_principal;
-	font-size: 1rem;
-	padding: .8rem 1rem;
-	margin:0 0 50px 0;	
-	text-align: center; 
-	text-transform: uppercase;
 	color: $cor_base;
-	
-}
-
-
-
-.form-inicio{
-		width: 100%;
-		color: $cor_base;
-		.grupo-nome, .grupo-idade, .grupo-data {
-			width: 100%;
-			display: block;
-			margin: .8rem 0;
-
-			label.label-inicio{
-			width: 100%;
-			background-color: $cor_principal;
-			font-size: 1rem;
-			padding: .8rem 1rem;
-			transition: all;
-
-		}
-		input.input-inicio{
-			width: 100%;
-			background-color: transparent;
-			border: 1px solid #d1d1d1;
-			font-size: 1rem;
-			color: $cor_principal;
-			text-align: center;
-			padding: .8rem 1rem;
-			margin-bottom: 1.3rem;
-			outline: 1px solid transparent;
-			transition: all;
-		}
-			input:focus, input:active{
-				border: 1px solid $cor_principal;
-				outline: none; ;
-				}
-		}
+	float: left;
+	padding: .8rem 1.2rem;
+	margin: 1rem 0;
+	&:hover{
+		background-color: darken($cor_principal, 5%);
 	}
-
-
-.troca{
-	transform: translateZ(-100%) !important;
-	opacity: 0;
 }
 
-#inicio {
-	width: 100%;
+
+#tela-cabeca,#tela-cabeca-1,#tela-cabeca-2,#tela-cabeca-3,#tela-cabeca-4,#tela-cabeca-5 {
+	background: url(../img/1-cabeca.jpg) center center / cover no-repeat;}
+
+#tela-olhos,#tela-olhos-1,#tela-olhos-2,#tela-olhos-3,#tela-olhos-4,#tela-olhos-5 {
+	background: url(../img/2-olhos.jpg) center center / cover no-repeat;}
+
+#tela-ouvidos,#tela-ouvidos-1,#tela-ouvidos-2,#tela-ouvidos-3,#tela-ouvidos-4,#tela-ouvidos-5 {
+	background: url(../img/3-ouvidos.jpg) center center / cover no-repeat;}
+
+#tela-nariz,#tela-nariz-1,#tela-nariz-2,#tela-nariz-3,#tela-nariz-4,#tela-nariz-5 {
+	background: url(../img/4-nariz.jpg) center center / cover no-repeat;}
+
+#tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4{
+	background: url(../img/5-boca-garganta.jpg) center center / cover no-repeat;}
+
+
+#tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4{
+	background: url(../img/6-pele.jpg) center center / cover no-repeat;}
+
+
+#tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4{
+	background: url(../img/7-coracao.jpg) center center / cover no-repeat;}
+
+
+#tela-pulmao, #tela-pulmao-1, #tela-pulmao-2, #tela-pulmao-3, #tela-pulmao-4{
+	background: url(../img/8-pulmoes.jpg) center center / cover no-repeat;}
+
+
+
+#tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4{
+	background: url(../img/9-sistema-digestivo.jpg) center center / cover no-repeat;}
+
+
+#tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4{
+	background: url(../img/10-musculos-articulacoes.jpg) center center / cover no-repeat;}
+
+
+#tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4{
+	background: url(../img/11-energia-atividade.jpg) center center / cover no-repeat;}
+
+
+#tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4{
+	background: url(../img/12-mente.jpg) center center / cover no-repeat;}
+
+
+#tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4{
+	background: url(../img/12-emocoes.jpg) center center / cover no-repeat;}
+
+
+#tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4{
+	background: url(../img/12-outros.jpg) center center / cover no-repeat;}
+
+
+
+
+#tela-cabeca, #tela-cabeca-1, #tela-cabeca-2, #tela-cabeca-3, #tela-cabeca-4, #tela-cabeca-5,
+#tela-olhos, #tela-olhos-1, #tela-olhos-2, #tela-olhos-3, #tela-olhos-4,
+#tela-ouvidos, #tela-ouvidos-1, #tela-ouvidos-2, #tela-ouvidos-3, #tela-ouvidos-4,
+#tela-nariz, #tela-nariz-1, #tela-nariz-2, #tela-nariz-3, #tela-nariz-4, #tela-nariz-5,
+#tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4,
+#tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4,
+#tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4,
+#tela-pulmao, #tela-pulmao-1, #tela-pulmao-2, #tela-pulmao-3, #tela-pulmao-4,
+#tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4,
+#tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4,
+#tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4,
+#tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4,
+#tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4,
+#tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4,
+{
 	height: 100vh;
-	/*background-image: url(../img/1-cabeca.jpg);*/
-	transform: translateZ(0);
-	transition: all .5s ease-in-out;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
+	input{
+		padding: .6rem 1rem;
+		margin-top: 1.3rem;
+		width: 100%;
+		font-weight: 300;
+		font-size: 12px;
+		color: gray;
+		font-style: italic;
+		outline: transparent;
+		border: 1px solid #d1d1d1;
+	}
+	
 }
+
+.sintoma-titulo{
+		font-size: 1.3rem;
+		font-family: $font-principal;
+		color: $cor_base;
+		background-color: $cor_principal;
+		padding: 1.2rem 1.3rem;
+		margin-top: 15rem;	
+		text-transform: uppercase;
+		text-align: center;
 }
+
+
+.titulo-cabeca{
+		font-size: 1.3rem;
+		font-family: $font-principal;
+		color: $cor_base;
+		background-color: $cor_principal;
+		padding: 1.2rem 1.3rem;
+		margin: 1.4rem 0 4rem 0;	
+		text-transform: uppercase;
+		text-align: center;
+}
+
+
+.esc{
+	font-family: $font-principal !important;
+}
+
+
+
+
+.escala-de-pontos{
+	width: 100%;
+	padding: 0;
+
+	ul.lista-escala{
+		padding: 0;
+		li.lista-escala-item{
+			text-align: left;
+			width: 100%;
+			list-style-type: none;
+			padding: 1.2rem 1.3rem;
+			font-family: $font-secundaria;
+			background-color: $cor_base;
+			color: #727272;
+			text-transform: uppercase;
+
+		}
+		li.stripe{
+			background-color: $cor_principal;
+			color: white;
+		}
+	}
+}
+
+
+
+
+

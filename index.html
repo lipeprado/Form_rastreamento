@@ -9,44 +9,521 @@
 </head>
 <body>
 	
-	<section id="inicio">
-		
+
+
+<section id="primeira-tela">
+
 		<div class="container">
-		<h1 class="title-inicio">Questionário para rastreamento metabólico</h1>
+				<form action="" method="" class="form_primeira-tela">
+					
+					<h1 id="titulo_primeira-tela">
+						Questionário para rastreamento metabólico
+					</h1>
 
-			<form action="" class="form-inicio">
+				<label for="nome" class="label_primeira-tela">Nome</label>
+				<input type="text" id="nome" class="input_primeira-tela t1">
+
+				<label for="idade" class="label_primeira-tela">Idade</label>
+				<input type="text" id="idade" class="input_primeira-tela t2">
+
+				<label for="date" class="label_primeira-tela">Date</label>
+				<input type="date" id="date" class="input_primeira-tela t3">
+							
+
 				
-				<div class="grupo-nome ">
-				<label for="nome" class="label-inicio col-xs-12 col-md-12">Nome</label>
-				<input type="text" class="input-inicio col-xs-12 col-md-12 ">
-				</div>
+					<a href="#tela-cabeca" class="btn_primeira-tela col-md-6 botao-1"><span></span>Avançar</a>
+				</form>
+		</div>
+</section> <!-- fim da section -->
 
-				<div class="grupo-idade">
-				<label for="idade" class="label-inicio col-xs-12 col-md-12 ">Idade</label>
-				<input type="text" class="input-inicio col-xs-12 col-md-12 ">
-				</div>
 
-				<div class="grupo-data">
-				<label for="data" class="label-inicio col-xs-12 col-md-12 ">Data</label>
-				<input type="date" class="input-inicio col-xs-12 col-md-12 ">
-				</div>
+<!-- CABEÇA -->
+
+
+<section id="tela-cabeca">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Dor de Cabeça</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
 			
-			</form>
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">CABEÇA</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-cabeca-1" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
 
-		</div> <!-- fim container -->
-	</section> <!-- fim section Inicio -->
-	
 
-	
-	<div class="container-btn">
-	<div class="container">
-		<button class="btn-main col-md-6">Avançar</button>	
-	</div>
-	</div>
+<section id="tela-cabeca-1">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Sensação de desmaio</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">CABEÇA</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-cabeca-2" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-cabeca-2">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Tonturas</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">CABEÇA</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-cabeca-3" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-cabeca-3">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Insônia</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">CABEÇA</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-cabeca-4" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-cabeca-4">
+		<div class="container">
+						
+			<div class="col-xs-12 col-md-6 pull-right">		
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">Total de Pontos</li>
+						  <input type="text" class="sintoma_input" value="7pontos">
+						</ul>
+					</div>
+					<a href="#tela-olhos" class="btn_avancar col-xs-12 col-md-6"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+
+<!-- OLHOS -->
+
+
+<section id="tela-olhos">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Lacrimejantes ou coçando</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">OLHOS</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-olhos-1" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+
+<section id="tela-olhos-1">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Inchados, vermelhos ou com cílios colando</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">OLHOS</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-olhos-2" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-olhos-2">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Bolsas ou olheiras abaixo dos olhos</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">OLHOS</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-olhos-3" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-olhos-3">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Visão borrada ou em túnel</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">OLHOS</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-olhos-4" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-olhos-4">
+		<div class="container">
+						
+			<div class="col-xs-12 col-md-6 pull-right">		
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">Total de Pontos</li>
+						  <input type="text" class="sintoma_input" value="7pontos">
+						</ul>
+					</div>
+					<a href="#tela-ouvidos" class="btn_avancar col-xs-12 col-md-6"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<!-- OUVIDOS -->
+
+<section id="tela-ouvidos">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">COCEIRA</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">ouvidos</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-ouvidos-1" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+
+<section id="tela-ouvidos-1">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Dores de ouvido, infecções auditivas</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">ouvidos</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-ouvidos-2" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-ouvidos-2">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Retirada de secreção com pus do ouvido</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">ouvidos</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-ouvidos-3" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-ouvidos-3">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Zunido, perda da audição</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">ouvidos</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-ouvidos-4" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-ouvidos-4">
+		<div class="container">
+						
+			<div class="col-xs-12 col-md-6 pull-right">		
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">Total de Pontos</li>
+						  <input type="text" class="sintoma_input" value="7pontos">
+						</ul>
+					</div>
+					<a href="#tela-nariz" class="btn_avancar col-xs-12 col-md-6"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<!-- NARIZ  -->
+
+<section id="tela-nariz">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Entupido </h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">nariz</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-nariz-1" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+
+<section id="tela-nariz-1">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Problemas de Seios Nasais(Sinusite)</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">nariz</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-nariz-2" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-nariz-2">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Corrimento nasal, espirros,lacrimejamento e coceira dos olhos</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">nariz</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-nariz-3" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-nariz-3">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Ataques de espirros</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">nariz</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-nariz-4" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-nariz-4">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 pull-left">
+				<h1 class="sintoma-titulo">Excessiva formação de muco</h1>
+				<input type="number" class="sintoma_input" min="0" max="4" placeholder="Escolha um número na Escala de Pontos...">
+			</div> <!-- fim lado esquerdo -->
+			
+			<div class="col-xs-12 col-md-6 clearfix">
+					<h1 class="titulo-cabeca col-xs-12 col-md-6">nariz</h1>			
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">ESCALA DE PONTOS</li>
+						  <li class="lista-escala-item ">0 - Nunca ou quase nunca teve o sintoma</li>
+						  <li class="lista-escala-item stripe">1 - Ocasionalmente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">2 - Ocasionalmente teve, efeito foi severo</li>
+						  <li class="lista-escala-item stripe">3 - Frequentemente teve, efeito não foi severo</li>
+						  <li class="lista-escala-item ">4 - Frequentemente teve, efeito foi severo</li>
+						</ul>
+					</div>
+					<a href="#tela-nariz-5" class="btn_avancar col-xs-12 col-md-6 pull-left"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
+
+<section id="tela-nariz-5">
+		<div class="container">
+						
+			<div class="col-xs-12 col-md-6 pull-right">		
+					<div class="escala-de-pontos col-xs-12 col-md-6">
+						<ul class="lista-escala">
+							<li class="lista-escala-item stripe esc">Total de Pontos</li>
+						  <input type="text" class="sintoma_input" value="7pontos">
+						</ul>
+					</div>
+					<a href="#tela-boca-garganta" class="btn_avancar col-xs-12 col-md-6"><span></span>Avançar</a>
+			</div> <!-- fim lado Direito -->
+		</div>
+</section>
 
 
 
-<script src="js/vendor/jquery-3.1.0.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- <script src="js/vendor/jquery-3.1.0.min.js"></script> -->
 <script src="js/main.js"></script>
 </body>
 </html>
