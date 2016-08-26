@@ -1048,50 +1048,50 @@ section {
 #tela-nariz, #tela-nariz-1, #tela-nariz-2, #tela-nariz-3, #tela-nariz-4, #tela-nariz-5 {
   background: url(../img/4-nariz.jpg) center center/cover no-repeat; }
 
-#tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4 {
+#tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4, #tela-boca-garganta-5 {
   background: url(../img/5-boca-garganta.jpg) center center/cover no-repeat; }
 
-#tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4 {
+#tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4, #tela-pele-5 {
   background: url(../img/6-pele.jpg) center center/cover no-repeat; }
 
-#tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4 {
+#tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4, #tela-coracao-5 {
   background: url(../img/7-coracao.jpg) center center/cover no-repeat; }
 
-#tela-pulmao, #tela-pulmao-1, #tela-pulmao-2, #tela-pulmao-3, #tela-pulmao-4 {
+#tela-pulmoes, #tela-pulmoes-1, #tela-pulmoes-2, #tela-pulmoes-3, #tela-pulmoes-4, #tela-pulmoes-5 {
   background: url(../img/8-pulmoes.jpg) center center/cover no-repeat; }
 
-#tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4 {
+#tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4, #tela-trato-digestivo-5, #tela-trato-digestivo-6 {
   background: url(../img/9-sistema-digestivo.jpg) center center/cover no-repeat; }
 
-#tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4 {
+#tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4, #tela-articulacoes-5 {
   background: url(../img/10-musculos-articulacoes.jpg) center center/cover no-repeat; }
 
-#tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4 {
+#tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4, #tela-energia-5 {
   background: url(../img/11-energia-atividade.jpg) center center/cover no-repeat; }
 
-#tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4 {
+#tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4, #tela-mente-5, #tela-mente-6, #tela-mente-7, #tela-mente-8 {
   background: url(../img/12-mente.jpg) center center/cover no-repeat; }
 
-#tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4 {
-  background: url(../img/12-emocoes.jpg) center center/cover no-repeat; }
+#tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4, #tela-emocoes-5 {
+  background: url(../img/13-emocoes.jpg) center center/cover no-repeat; }
 
-#tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4 {
-  background: url(../img/12-outros.jpg) center center/cover no-repeat; }
+#tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4, #tela-outros-5 {
+  background: url(../img/14-outros.jpg) center center/cover no-repeat; }
 
 #tela-cabeca, #tela-cabeca-1, #tela-cabeca-2, #tela-cabeca-3, #tela-cabeca-4, #tela-cabeca-5,
 #tela-olhos, #tela-olhos-1, #tela-olhos-2, #tela-olhos-3, #tela-olhos-4,
 #tela-ouvidos, #tela-ouvidos-1, #tela-ouvidos-2, #tela-ouvidos-3, #tela-ouvidos-4,
 #tela-nariz, #tela-nariz-1, #tela-nariz-2, #tela-nariz-3, #tela-nariz-4, #tela-nariz-5,
-#tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4,
-#tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4,
-#tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4,
-#tela-pulmao, #tela-pulmao-1, #tela-pulmao-2, #tela-pulmao-3, #tela-pulmao-4,
-#tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4,
-#tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4,
-#tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4,
-#tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4,
-#tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4,
-#tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4 {
+#tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4, #tela-boca-garganta-5,
+#tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4, #tela-pele-5,
+#tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4, #tela-coracao-5,
+#tela-pulmoes, #tela-pulmoes-1, #tela-pulmoes-2, #tela-pulmoes-3, #tela-pulmoes-4, #tela-pulmoes-5,
+#tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4, #tela-trato-digestivo-5, #tela-trato-digestivo-6,
+#tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4, #tela-articulacoes-5,
+#tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4, #tela-energia-5,
+#tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4, #tela-mente-5, #tela-mente-6, #tela-mente-7, #tela-mente-8,
+#tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4, #tela-emocoes-5,
+#tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4, #tela-outros-5, #tela-ultima-pagina {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1102,16 +1102,16 @@ section {
   #tela-olhos input, #tela-olhos-1 input, #tela-olhos-2 input, #tela-olhos-3 input, #tela-olhos-4 input,
   #tela-ouvidos input, #tela-ouvidos-1 input, #tela-ouvidos-2 input, #tela-ouvidos-3 input, #tela-ouvidos-4 input,
   #tela-nariz input, #tela-nariz-1 input, #tela-nariz-2 input, #tela-nariz-3 input, #tela-nariz-4 input, #tela-nariz-5 input,
-  #tela-boca-garganta input, #tela-boca-garganta-1 input, #tela-boca-garganta-2 input, #tela-boca-garganta-3 input, #tela-boca-garganta-4 input,
-  #tela-pele input, #tela-pele-1 input, #tela-pele-2 input, #tela-pele-3 input, #tela-pele-4 input,
-  #tela-coracao input, #tela-coracao-1 input, #tela-coracao-2 input, #tela-coracao-3 input, #tela-coracao-4 input,
-  #tela-pulmao input, #tela-pulmao-1 input, #tela-pulmao-2 input, #tela-pulmao-3 input, #tela-pulmao-4 input,
-  #tela-trato-digestivo input, #tela-trato-digestivo-1 input, #tela-trato-digestivo-2 input, #tela-trato-digestivo-3 input, #tela-trato-digestivo-4 input,
-  #tela-articulacoes input, #tela-articulacoes-1 input, #tela-articulacoes-2 input, #tela-articulacoes-3 input, #tela-articulacoes-4 input,
-  #tela-energia input, #tela-energia-1 input, #tela-energia-2 input, #tela-energia-3 input, #tela-energia-4 input,
-  #tela-mente input, #tela-mente-1 input, #tela-mente-2 input, #tela-mente-3 input, #tela-mente-4 input,
-  #tela-emocoes input, #tela-emocoes-1 input, #tela-emocoes-2 input, #tela-emocoes-3 input, #tela-emocoes-4 input,
-  #tela-outros input, #tela-outros-1 input, #tela-outros-2 input, #tela-outros-3 input, #tela-outros-4 input {
+  #tela-boca-garganta input, #tela-boca-garganta-1 input, #tela-boca-garganta-2 input, #tela-boca-garganta-3 input, #tela-boca-garganta-4 input, #tela-boca-garganta-5 input,
+  #tela-pele input, #tela-pele-1 input, #tela-pele-2 input, #tela-pele-3 input, #tela-pele-4 input, #tela-pele-5 input,
+  #tela-coracao input, #tela-coracao-1 input, #tela-coracao-2 input, #tela-coracao-3 input, #tela-coracao-4 input, #tela-coracao-5 input,
+  #tela-pulmoes input, #tela-pulmoes-1 input, #tela-pulmoes-2 input, #tela-pulmoes-3 input, #tela-pulmoes-4 input, #tela-pulmoes-5 input,
+  #tela-trato-digestivo input, #tela-trato-digestivo-1 input, #tela-trato-digestivo-2 input, #tela-trato-digestivo-3 input, #tela-trato-digestivo-4 input, #tela-trato-digestivo-5 input, #tela-trato-digestivo-6 input,
+  #tela-articulacoes input, #tela-articulacoes-1 input, #tela-articulacoes-2 input, #tela-articulacoes-3 input, #tela-articulacoes-4 input, #tela-articulacoes-5 input,
+  #tela-energia input, #tela-energia-1 input, #tela-energia-2 input, #tela-energia-3 input, #tela-energia-4 input, #tela-energia-5 input,
+  #tela-mente input, #tela-mente-1 input, #tela-mente-2 input, #tela-mente-3 input, #tela-mente-4 input, #tela-mente-5 input, #tela-mente-6 input, #tela-mente-7 input, #tela-mente-8 input,
+  #tela-emocoes input, #tela-emocoes-1 input, #tela-emocoes-2 input, #tela-emocoes-3 input, #tela-emocoes-4 input, #tela-emocoes-5 input,
+  #tela-outros input, #tela-outros-1 input, #tela-outros-2 input, #tela-outros-3 input, #tela-outros-4 input, #tela-outros-5 input, #tela-ultima-pagina input {
     padding: .6rem 1rem;
     margin-top: 1.3rem;
     width: 100%;
@@ -1129,6 +1129,15 @@ section {
   background-color: #05919a;
   padding: 1.2rem 1.3rem;
   margin-top: 15rem;
+  text-transform: uppercase;
+  text-align: center; }
+
+.sintoma-titulo-final {
+  font-size: 1.3rem;
+  font-family: "Arial Black", sans-serif;
+  color: #FFFFFF;
+  background-color: #05919a;
+  padding: 1.2rem 1.3rem;
   text-transform: uppercase;
   text-align: center; }
 
@@ -1162,3 +1171,369 @@ section {
     .escala-de-pontos ul.lista-escala li.stripe {
       background-color: #05919a;
       color: white; }
+
+@media (min-width: 300px) and (max-width: 500px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  html {
+    width: 100%; }
+  #primeira-tela {
+    padding: .6rem 0 0 0;
+    height: 100vh;
+    margin-bottom: 4rem; }
+  #titulo_primeira-tela, .label_primeira-tela {
+    font-size: .8rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: .8rem 1.2rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center; }
+  .label_primeira-tela {
+    font-size: .8rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: .8rem 1.2rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    display: block;
+    width: 100%; }
+  .input_primeira-tela {
+    background-color: #FFFFFF;
+    color: #05919a;
+    width: 100%;
+    padding: .6rem 1rem;
+    margin-bottom: 1rem;
+    outline: transparent;
+    border: 1px solid #d1d1d1; }
+  .btn_primeira-tela {
+    text-decoration: none;
+    background-color: #05919a;
+    color: #FFFFFF;
+    float: right;
+    padding: .8rem 1.2rem; }
+    .btn_primeira-tela:hover {
+      background-color: #047a81; }
+  .btn_avancar {
+    text-decoration: none;
+    background-color: #05919a;
+    color: #FFFFFF;
+    float: left;
+    padding: .8rem 1.2rem;
+    margin: 1rem 0; }
+    .btn_avancar:hover {
+      background-color: #047a81; }
+  #tela-cabeca, #tela-cabeca-1, #tela-cabeca-2, #tela-cabeca-3, #tela-cabeca-4, #tela-cabeca-5,
+  #tela-olhos, #tela-olhos-1, #tela-olhos-2, #tela-olhos-3, #tela-olhos-4,
+  #tela-ouvidos, #tela-ouvidos-1, #tela-ouvidos-2, #tela-ouvidos-3, #tela-ouvidos-4,
+  #tela-nariz, #tela-nariz-1, #tela-nariz-2, #tela-nariz-3, #tela-nariz-4, #tela-nariz-5,
+  #tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4, #tela-boca-garganta-5,
+  #tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4, #tela-pele-5,
+  #tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4, #tela-coracao-5,
+  #tela-pulmoes, #tela-pulmoes-1, #tela-pulmoes-2, #tela-pulmoes-3, #tela-pulmoes-4, #tela-pulmoes-5,
+  #tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4, #tela-trato-digestivo-5, #tela-trato-digestivo-6,
+  #tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4, #tela-articulacoes-5,
+  #tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4, #tela-energia-5,
+  #tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4, #tela-mente-5, #tela-mente-6, #tela-mente-7, #tela-mente-8,
+  #tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4, #tela-emocoes-5,
+  #tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4, #tela-outros-5, #tela-ultima-pagina {
+    height: 100vh;
+    padding: 4rem 0;
+    margin: 2rem 0; }
+    #tela-cabeca input, #tela-cabeca-1 input, #tela-cabeca-2 input, #tela-cabeca-3 input, #tela-cabeca-4 input, #tela-cabeca-5 input,
+    #tela-olhos input, #tela-olhos-1 input, #tela-olhos-2 input, #tela-olhos-3 input, #tela-olhos-4 input,
+    #tela-ouvidos input, #tela-ouvidos-1 input, #tela-ouvidos-2 input, #tela-ouvidos-3 input, #tela-ouvidos-4 input,
+    #tela-nariz input, #tela-nariz-1 input, #tela-nariz-2 input, #tela-nariz-3 input, #tela-nariz-4 input, #tela-nariz-5 input,
+    #tela-boca-garganta input, #tela-boca-garganta-1 input, #tela-boca-garganta-2 input, #tela-boca-garganta-3 input, #tela-boca-garganta-4 input, #tela-boca-garganta-5 input,
+    #tela-pele input, #tela-pele-1 input, #tela-pele-2 input, #tela-pele-3 input, #tela-pele-4 input, #tela-pele-5 input,
+    #tela-coracao input, #tela-coracao-1 input, #tela-coracao-2 input, #tela-coracao-3 input, #tela-coracao-4 input, #tela-coracao-5 input,
+    #tela-pulmoes input, #tela-pulmoes-1 input, #tela-pulmoes-2 input, #tela-pulmoes-3 input, #tela-pulmoes-4 input, #tela-pulmoes-5 input,
+    #tela-trato-digestivo input, #tela-trato-digestivo-1 input, #tela-trato-digestivo-2 input, #tela-trato-digestivo-3 input, #tela-trato-digestivo-4 input, #tela-trato-digestivo-5 input, #tela-trato-digestivo-6 input,
+    #tela-articulacoes input, #tela-articulacoes-1 input, #tela-articulacoes-2 input, #tela-articulacoes-3 input, #tela-articulacoes-4 input, #tela-articulacoes-5 input,
+    #tela-energia input, #tela-energia-1 input, #tela-energia-2 input, #tela-energia-3 input, #tela-energia-4 input, #tela-energia-5 input,
+    #tela-mente input, #tela-mente-1 input, #tela-mente-2 input, #tela-mente-3 input, #tela-mente-4 input, #tela-mente-5 input, #tela-mente-6 input, #tela-mente-7 input, #tela-mente-8 input,
+    #tela-emocoes input, #tela-emocoes-1 input, #tela-emocoes-2 input, #tela-emocoes-3 input, #tela-emocoes-4 input, #tela-emocoes-5 input,
+    #tela-outros input, #tela-outros-1 input, #tela-outros-2 input, #tela-outros-3 input, #tela-outros-4 input, #tela-outros-5 input, #tela-ultima-pagina input {
+      padding: .7rem 1rem; }
+  .sintoma-titulo {
+    font-size: .7rem;
+    padding: .7rem 1.3rem;
+    margin-top: 1rem; }
+  .sintoma-titulo-final {
+    font-size: .7rem;
+    padding: .7rem 1.3rem; }
+  .titulo-cabeca {
+    font-size: .7rem;
+    padding: .7rem 1.3rem;
+    margin: 1.4rem 0 4rem 0;
+    text-transform: uppercase;
+    text-align: center; }
+  .lista-escala {
+    margin: 0; }
+  .lista-escala-item {
+    padding: .7rem 1.3rem;
+    font-size: .5rem; } }
+
+@media (min-width: 510px) and (max-width: 800px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  html {
+    width: 100%; }
+  #primeira-tela {
+    padding: .6rem 0 0 0;
+    height: 100vh;
+    margin-bottom: 4rem; }
+  #titulo_primeira-tela, .label_primeira-tela {
+    font-size: .8rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: .8rem 1.2rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center; }
+  .label_primeira-tela {
+    font-size: .8rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: .8rem 1.2rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    display: block;
+    width: 100%; }
+  .input_primeira-tela {
+    background-color: #FFFFFF;
+    color: #05919a;
+    width: 100%;
+    padding: .6rem 1rem;
+    margin-bottom: 1rem;
+    outline: transparent;
+    border: 1px solid #d1d1d1; }
+  .btn_primeira-tela {
+    text-decoration: none;
+    background-color: #05919a;
+    color: #FFFFFF;
+    float: right;
+    padding: .8rem 1.2rem; }
+    .btn_primeira-tela:hover {
+      background-color: #047a81; }
+  .btn_avancar {
+    text-decoration: none;
+    background-color: #05919a;
+    color: #FFFFFF;
+    float: left;
+    padding: .8rem 1.2rem;
+    margin: 1rem 0; }
+    .btn_avancar:hover {
+      background-color: #047a81; }
+  #tela-cabeca, #tela-cabeca-1, #tela-cabeca-2, #tela-cabeca-3, #tela-cabeca-4, #tela-cabeca-5,
+  #tela-olhos, #tela-olhos-1, #tela-olhos-2, #tela-olhos-3, #tela-olhos-4,
+  #tela-ouvidos, #tela-ouvidos-1, #tela-ouvidos-2, #tela-ouvidos-3, #tela-ouvidos-4,
+  #tela-nariz, #tela-nariz-1, #tela-nariz-2, #tela-nariz-3, #tela-nariz-4, #tela-nariz-5,
+  #tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4, #tela-boca-garganta-5,
+  #tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4, #tela-pele-5,
+  #tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4, #tela-coracao-5,
+  #tela-pulmoes, #tela-pulmoes-1, #tela-pulmoes-2, #tela-pulmoes-3, #tela-pulmoes-4, #tela-pulmoes-5,
+  #tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4, #tela-trato-digestivo-5, #tela-trato-digestivo-6,
+  #tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4, #tela-articulacoes-5,
+  #tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4, #tela-energia-5,
+  #tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4, #tela-mente-5, #tela-mente-6, #tela-mente-7, #tela-mente-8,
+  #tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4, #tela-emocoes-5,
+  #tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4, #tela-outros-5, #tela-ultima-pagina {
+    height: 100vh;
+    padding: 4rem 0;
+    margin: 2rem 0; }
+    #tela-cabeca input, #tela-cabeca-1 input, #tela-cabeca-2 input, #tela-cabeca-3 input, #tela-cabeca-4 input, #tela-cabeca-5 input,
+    #tela-olhos input, #tela-olhos-1 input, #tela-olhos-2 input, #tela-olhos-3 input, #tela-olhos-4 input,
+    #tela-ouvidos input, #tela-ouvidos-1 input, #tela-ouvidos-2 input, #tela-ouvidos-3 input, #tela-ouvidos-4 input,
+    #tela-nariz input, #tela-nariz-1 input, #tela-nariz-2 input, #tela-nariz-3 input, #tela-nariz-4 input, #tela-nariz-5 input,
+    #tela-boca-garganta input, #tela-boca-garganta-1 input, #tela-boca-garganta-2 input, #tela-boca-garganta-3 input, #tela-boca-garganta-4 input, #tela-boca-garganta-5 input,
+    #tela-pele input, #tela-pele-1 input, #tela-pele-2 input, #tela-pele-3 input, #tela-pele-4 input, #tela-pele-5 input,
+    #tela-coracao input, #tela-coracao-1 input, #tela-coracao-2 input, #tela-coracao-3 input, #tela-coracao-4 input, #tela-coracao-5 input,
+    #tela-pulmoes input, #tela-pulmoes-1 input, #tela-pulmoes-2 input, #tela-pulmoes-3 input, #tela-pulmoes-4 input, #tela-pulmoes-5 input,
+    #tela-trato-digestivo input, #tela-trato-digestivo-1 input, #tela-trato-digestivo-2 input, #tela-trato-digestivo-3 input, #tela-trato-digestivo-4 input, #tela-trato-digestivo-5 input, #tela-trato-digestivo-6 input,
+    #tela-articulacoes input, #tela-articulacoes-1 input, #tela-articulacoes-2 input, #tela-articulacoes-3 input, #tela-articulacoes-4 input, #tela-articulacoes-5 input,
+    #tela-energia input, #tela-energia-1 input, #tela-energia-2 input, #tela-energia-3 input, #tela-energia-4 input, #tela-energia-5 input,
+    #tela-mente input, #tela-mente-1 input, #tela-mente-2 input, #tela-mente-3 input, #tela-mente-4 input, #tela-mente-5 input, #tela-mente-6 input, #tela-mente-7 input, #tela-mente-8 input,
+    #tela-emocoes input, #tela-emocoes-1 input, #tela-emocoes-2 input, #tela-emocoes-3 input, #tela-emocoes-4 input, #tela-emocoes-5 input,
+    #tela-outros input, #tela-outros-1 input, #tela-outros-2 input, #tela-outros-3 input, #tela-outros-4 input, #tela-outros-5 input, #tela-ultima-pagina input {
+      padding: .7rem 1rem; }
+  .sintoma-titulo {
+    font-size: .7rem;
+    padding: .7rem 1.3rem;
+    margin-top: 1rem; }
+  .sintoma-titulo-final {
+    font-size: .7rem;
+    padding: .7rem 1.3rem; }
+  .titulo-cabeca {
+    font-size: .7rem;
+    padding: .7rem 1.3rem;
+    margin: 1.4rem 0 4rem 0;
+    text-transform: uppercase;
+    text-align: center; }
+  .lista-escala {
+    margin: 0; }
+  .lista-escala-item {
+    padding: .7rem 1.3rem;
+    font-size: .5rem; } }
+
+@media (min-width: 801px) and (max-width: 1400px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  #primeira-tela {
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(0);
+    opacity: 1;
+    transition: all .5s ease-in-out; }
+  .troca-tela {
+    transform: translateX(-100%) !important;
+    opacity: 0 !important; }
+  #titulo_primeira-tela, .label_primeira-tela {
+    font-size: 1.3rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: .8rem 1.4rem;
+    margin: 1.4rem 0 4rem 0;
+    text-transform: uppercase;
+    text-align: center; }
+  .label_primeira-tela {
+    font-size: 1.3rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: .8rem 1.4rem;
+    margin: 1.4rem 0 4rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+    padding: .8rem 1.4rem;
+    display: block;
+    width: 100%; }
+  .input_primeira-tela {
+    background-color: #FFFFFF;
+    color: #05919a;
+    width: 100%;
+    padding: .6rem 1rem;
+    margin-bottom: 1rem;
+    outline: transparent;
+    border: 1px solid #d1d1d1; }
+  .btn_primeira-tela {
+    text-decoration: none;
+    background-color: #05919a;
+    color: #FFFFFF;
+    float: right;
+    padding: .8rem 1.2rem;
+    margin: 1rem 0; }
+    .btn_primeira-tela:hover {
+      background-color: #047a81; }
+  .btn_avancar {
+    text-decoration: none;
+    background-color: #05919a;
+    color: #FFFFFF;
+    float: left;
+    padding: .8rem 1.2rem;
+    margin: 1rem 0; }
+    .btn_avancar:hover {
+      background-color: #047a81; }
+  #tela-cabeca, #tela-cabeca-1, #tela-cabeca-2, #tela-cabeca-3, #tela-cabeca-4, #tela-cabeca-5,
+  #tela-olhos, #tela-olhos-1, #tela-olhos-2, #tela-olhos-3, #tela-olhos-4,
+  #tela-ouvidos, #tela-ouvidos-1, #tela-ouvidos-2, #tela-ouvidos-3, #tela-ouvidos-4,
+  #tela-nariz, #tela-nariz-1, #tela-nariz-2, #tela-nariz-3, #tela-nariz-4, #tela-nariz-5,
+  #tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4, #tela-boca-garganta-5,
+  #tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4, #tela-pele-5,
+  #tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4, #tela-coracao-5,
+  #tela-pulmoes, #tela-pulmoes-1, #tela-pulmoes-2, #tela-pulmoes-3, #tela-pulmoes-4, #tela-pulmoes-5,
+  #tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4, #tela-trato-digestivo-5, #tela-trato-digestivo-6,
+  #tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4, #tela-articulacoes-5,
+  #tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4, #tela-energia-5,
+  #tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4, #tela-mente-5, #tela-mente-6, #tela-mente-7, #tela-mente-8,
+  #tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4, #tela-emocoes-5,
+  #tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4, #tela-outros-5, #tela-ultima-pagina {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    #tela-cabeca input, #tela-cabeca-1 input, #tela-cabeca-2 input, #tela-cabeca-3 input, #tela-cabeca-4 input, #tela-cabeca-5 input,
+    #tela-olhos input, #tela-olhos-1 input, #tela-olhos-2 input, #tela-olhos-3 input, #tela-olhos-4 input,
+    #tela-ouvidos input, #tela-ouvidos-1 input, #tela-ouvidos-2 input, #tela-ouvidos-3 input, #tela-ouvidos-4 input,
+    #tela-nariz input, #tela-nariz-1 input, #tela-nariz-2 input, #tela-nariz-3 input, #tela-nariz-4 input, #tela-nariz-5 input,
+    #tela-boca-garganta input, #tela-boca-garganta-1 input, #tela-boca-garganta-2 input, #tela-boca-garganta-3 input, #tela-boca-garganta-4 input, #tela-boca-garganta-5 input,
+    #tela-pele input, #tela-pele-1 input, #tela-pele-2 input, #tela-pele-3 input, #tela-pele-4 input, #tela-pele-5 input,
+    #tela-coracao input, #tela-coracao-1 input, #tela-coracao-2 input, #tela-coracao-3 input, #tela-coracao-4 input, #tela-coracao-5 input,
+    #tela-pulmoes input, #tela-pulmoes-1 input, #tela-pulmoes-2 input, #tela-pulmoes-3 input, #tela-pulmoes-4 input, #tela-pulmoes-5 input,
+    #tela-trato-digestivo input, #tela-trato-digestivo-1 input, #tela-trato-digestivo-2 input, #tela-trato-digestivo-3 input, #tela-trato-digestivo-4 input, #tela-trato-digestivo-5 input, #tela-trato-digestivo-6 input,
+    #tela-articulacoes input, #tela-articulacoes-1 input, #tela-articulacoes-2 input, #tela-articulacoes-3 input, #tela-articulacoes-4 input, #tela-articulacoes-5 input,
+    #tela-energia input, #tela-energia-1 input, #tela-energia-2 input, #tela-energia-3 input, #tela-energia-4 input, #tela-energia-5 input,
+    #tela-mente input, #tela-mente-1 input, #tela-mente-2 input, #tela-mente-3 input, #tela-mente-4 input, #tela-mente-5 input, #tela-mente-6 input, #tela-mente-7 input, #tela-mente-8 input,
+    #tela-emocoes input, #tela-emocoes-1 input, #tela-emocoes-2 input, #tela-emocoes-3 input, #tela-emocoes-4 input, #tela-emocoes-5 input,
+    #tela-outros input, #tela-outros-1 input, #tela-outros-2 input, #tela-outros-3 input, #tela-outros-4 input, #tela-outros-5 input, #tela-ultima-pagina input {
+      padding: .6rem 1rem;
+      margin-top: 1.2rem;
+      width: 100%;
+      font-weight: 300;
+      font-size: 12px;
+      color: gray;
+      font-style: italic;
+      outline: transparent;
+      border: 1px solid #d1d1d1; }
+  .sintoma-titulo {
+    font-size: 1.3rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: 1rem 1.3rem;
+    margin-top: 15rem;
+    text-transform: uppercase;
+    text-align: center; }
+  .sintoma-titulo-final {
+    font-size: 1rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: 1rem 1.3rem;
+    text-transform: uppercase;
+    text-align: center; }
+  .titulo-cabeca {
+    font-size: 1rem;
+    font-family: "Arial Black", sans-serif;
+    color: #FFFFFF;
+    background-color: #05919a;
+    padding: 1rem 1.3rem;
+    margin: 1rem 0 4rem 0;
+    text-transform: uppercase;
+    text-align: center; }
+  .esc {
+    font-family: "Arial Black", sans-serif !important; }
+  .escala-de-pontos {
+    width: 100%;
+    padding: 0; }
+    .escala-de-pontos ul.lista-escala {
+      padding: 0; }
+      .escala-de-pontos ul.lista-escala li.lista-escala-item {
+        text-align: left;
+        width: 100%;
+        list-style-type: none;
+        padding: 1rem 1.3rem;
+        font-family: "Arial Regular", sans-serif;
+        background-color: #FFFFFF;
+        color: #727272;
+        text-transform: uppercase; }
+      .escala-de-pontos ul.lista-escala li.stripe {
+        background-color: #05919a;
+        color: white; } }

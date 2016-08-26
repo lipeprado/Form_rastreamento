@@ -1,0 +1,285 @@
+
+
+@media (min-width:320px) and (max-device-width : 420px){ /* smartphones, iPhone, portrait 480x320 phones */ 
+
+html{
+	width: 100%;
+}
+
+
+
+#primeira-tela{
+	padding: .6rem 0 0 0;
+	height: 100vh;
+	margin-bottom: 4rem;
+	
+}
+
+#titulo_primeira-tela{
+
+		font-size: .8rem;
+		font-family: $font-principal;
+		color: $cor_base;
+		background-color: $cor_principal;
+		padding: .8rem 1.2rem;
+		margin: 0;	
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+.label_primeira-tela{
+		font-size: .8rem;
+		font-family: $font-principal;
+		color: $cor_base;
+		background-color: $cor_principal;
+		padding: .8rem 1.2rem;
+		margin: 0;	
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 0;
+		margin-top: 1.5rem;
+		display: block;
+		width: 100%;
+}
+
+.input_primeira-tela{
+	background-color: $cor_base;
+	color: $cor_principal;
+	width: 100%;
+	padding: .6rem 1rem;
+	margin-bottom: 1rem;
+	outline: transparent;
+	border: 1px solid #d1d1d1;
+
+}
+
+.btn_primeira-tela{
+	text-decoration: none;
+	background-color: $cor_principal;
+	color: $cor_base;
+	float: right;
+	padding: .8rem 1.2rem;
+	&:hover{
+		background-color: darken($cor_principal, 5%);
+	}
+}
+
+
+.btn_avancar{
+	text-decoration: none;
+	background-color: $cor_principal;
+	color: $cor_base;
+	float: left;
+	padding: .8rem 1.2rem;
+	margin: 1rem 0;
+	&:hover{
+		background-color: darken($cor_principal, 5%);
+	}
+}
+
+
+
+
+
+#tela-cabeca, #tela-cabeca-1, #tela-cabeca-2, #tela-cabeca-3, #tela-cabeca-4, #tela-cabeca-5,
+#tela-olhos, #tela-olhos-1, #tela-olhos-2, #tela-olhos-3, #tela-olhos-4,
+#tela-ouvidos, #tela-ouvidos-1, #tela-ouvidos-2, #tela-ouvidos-3, #tela-ouvidos-4,
+#tela-nariz, #tela-nariz-1, #tela-nariz-2, #tela-nariz-3, #tela-nariz-4, #tela-nariz-5,
+#tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4, #tela-boca-garganta-5,
+#tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4, #tela-pele-5,
+#tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4, #tela-coracao-5,
+#tela-pulmoes, #tela-pulmoes-1, #tela-pulmoes-2, #tela-pulmoes-3, #tela-pulmoes-4, #tela-pulmoes-5,
+#tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4, #tela-trato-digestivo-5,#tela-trato-digestivo-6,
+#tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4, #tela-articulacoes-5,
+#tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4, #tela-energia-5,
+#tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4, #tela-mente-5, #tela-mente-6, #tela-mente-7, #tela-mente-8,
+#tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4, #tela-emocoes-5,
+#tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4, #tela-outros-5, #tela-ultima-pagina
+{
+	height: 100vh;
+	padding: 4rem 0;
+	margin: 2rem 0;
+	input{
+		padding: .7rem 1rem;
+		
+	}
+	
+}
+
+.sintoma-titulo{
+		font-size: .7rem;
+		padding: .7rem 1.3rem;
+		margin-top: 1rem ;	
+		
+}
+
+.sintoma-titulo-final{
+	font-size: .7rem;
+	padding: .7rem 1.3rem;	
+		
+}
+.titulo-cabeca{
+		font-size: .7rem;
+		padding: .7rem 1.3rem;
+		margin: 1.4rem 0 4rem 0;	
+		text-transform: uppercase;
+		text-align: center;
+}
+
+
+.lista-escala{
+	margin: 0;
+}
+
+.lista-escala-item{
+	padding: .7rem 1.3rem; 
+	font-size: .5rem;
+}
+
+
+
+
+@media only screen  and (min-width : 650px){ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+	html{
+	width: 100%;
+}
+
+
+
+#primeira-tela{
+	padding: .6rem 0 0 0;
+	height: 100vh;
+	margin-bottom: 4rem;
+	
+}
+
+#titulo_primeira-tela{
+
+		font-size: .8rem;
+		font-family: $font-principal;
+		color: $cor_base;
+		background-color: $cor_principal;
+		padding: .8rem 1.2rem;
+		margin: 0;	
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+.label_primeira-tela{
+		font-size: .8rem;
+		font-family: $font-principal;
+		color: $cor_base;
+		background-color: $cor_principal;
+		padding: .8rem 1.2rem;
+		margin: 0;	
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 0;
+		margin-top: 1.5rem;
+		display: block;
+		width: 100%;
+}
+
+.input_primeira-tela{
+	background-color: $cor_base;
+	color: $cor_principal;
+	width: 100%;
+	padding: .6rem 1rem;
+	margin-bottom: 1rem;
+	outline: transparent;
+	border: 1px solid #d1d1d1;
+
+}
+
+.btn_primeira-tela{
+	text-decoration: none;
+	background-color: $cor_principal;
+	color: $cor_base;
+	float: right;
+	padding: .8rem 1.2rem;
+	&:hover{
+		background-color: darken($cor_principal, 5%);
+	}
+}
+
+
+.btn_avancar{
+	text-decoration: none;
+	background-color: $cor_principal;
+	color: $cor_base;
+	float: left;
+	padding: .8rem 1.2rem;
+	margin: 1rem 0;
+	&:hover{
+		background-color: darken($cor_principal, 5%);
+	}
+}
+
+
+
+
+
+#tela-cabeca, #tela-cabeca-1, #tela-cabeca-2, #tela-cabeca-3, #tela-cabeca-4, #tela-cabeca-5,
+#tela-olhos, #tela-olhos-1, #tela-olhos-2, #tela-olhos-3, #tela-olhos-4,
+#tela-ouvidos, #tela-ouvidos-1, #tela-ouvidos-2, #tela-ouvidos-3, #tela-ouvidos-4,
+#tela-nariz, #tela-nariz-1, #tela-nariz-2, #tela-nariz-3, #tela-nariz-4, #tela-nariz-5,
+#tela-boca-garganta, #tela-boca-garganta-1, #tela-boca-garganta-2, #tela-boca-garganta-3, #tela-boca-garganta-4, #tela-boca-garganta-5,
+#tela-pele, #tela-pele-1, #tela-pele-2, #tela-pele-3, #tela-pele-4, #tela-pele-5,
+#tela-coracao, #tela-coracao-1, #tela-coracao-2, #tela-coracao-3, #tela-coracao-4, #tela-coracao-5,
+#tela-pulmoes, #tela-pulmoes-1, #tela-pulmoes-2, #tela-pulmoes-3, #tela-pulmoes-4, #tela-pulmoes-5,
+#tela-trato-digestivo, #tela-trato-digestivo-1, #tela-trato-digestivo-2, #tela-trato-digestivo-3, #tela-trato-digestivo-4, #tela-trato-digestivo-5,#tela-trato-digestivo-6,
+#tela-articulacoes, #tela-articulacoes-1, #tela-articulacoes-2, #tela-articulacoes-3, #tela-articulacoes-4, #tela-articulacoes-5,
+#tela-energia, #tela-energia-1, #tela-energia-2, #tela-energia-3, #tela-energia-4, #tela-energia-5,
+#tela-mente, #tela-mente-1, #tela-mente-2, #tela-mente-3, #tela-mente-4, #tela-mente-5, #tela-mente-6, #tela-mente-7, #tela-mente-8,
+#tela-emocoes, #tela-emocoes-1, #tela-emocoes-2, #tela-emocoes-3, #tela-emocoes-4, #tela-emocoes-5,
+#tela-outros, #tela-outros-1, #tela-outros-2, #tela-outros-3, #tela-outros-4, #tela-outros-5, #tela-ultima-pagina
+{
+	height: 100vh;
+	padding: 4rem 0;
+	margin: 2rem 0;
+	input{
+		padding: .7rem 1rem;
+		
+	}
+	
+}
+
+.sintoma-titulo{
+		font-size: .7rem;
+		padding: .7rem 1.3rem;
+		margin-top: 0 ;	
+		
+}
+
+.sintoma-titulo-final{
+	font-size: .7rem;
+	padding: .7rem 1.3rem;
+	margin-top: 0 ;	
+		
+}
+.titulo-cabeca{
+		font-size: .7rem;
+		padding: .7rem 1.3rem;
+		margin-top: 0 ;
+		text-transform: uppercase;
+		text-align: center;
+}
+
+
+.lista-escala{
+	margin: 0;
+}
+
+.lista-escala-item{
+	padding: .7rem 1.3rem; 
+	font-size: .5rem;
+}
+
+
+
+
+}
+
+
+}
